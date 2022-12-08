@@ -45,7 +45,193 @@ margin: 2em 8em auto 8em;
     width: 235px;
  }
 
- .gridContainer {
-    display: grid;
+ .tarea2 {
     background-image:url(./assets/f5da006265d9a17dd723c56ad19ae43f.jpg);
- }
+   }
+
+   .gridContainer {
+      margin: 0 6em 0 6em;
+      display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    
+   }
+
+   .black {
+      background-color: black;
+      color: black;
+      font: bold;
+   }
+
+   .teal {
+      background-color: teal;
+      color: black ;
+      font: bold;
+   }
+
+   .blue {
+      background-color: blue;
+      color: black ;
+      font: bold;
+   }
+
+   .navy {
+      background-color: navy;
+      color: black;
+      font: bold;
+   }
+
+   .lime {
+      background-color: lime;
+      color: black;
+      font: bold;
+   }
+
+   .purple {
+      background-color: purple;
+      color: black;
+      font: bold;
+   }
+
+   .yellow {
+      background-color: yellow;
+      color: black;
+      font: bold;
+   }
+
+   .olive {
+      background-color: olive;
+      color: black;
+      font: bold;
+   }
+
+   .red {
+      background-color: red;
+      color: black;
+      font: bold;
+   }
+
+   .black2 {
+      background-color: black;
+      color: black;
+      font: bold;
+   }
+
+   .gray {
+      background-color: gray;
+      color: black;
+      font: bold;
+   }
+
+   .olive2 {
+      background-color: olive;
+      color: black;
+      font: bold;
+   }
+
+   .red2 {
+      background-color: red;
+      color: black;
+      font: bold;
+   }
+
+   .fuchsia {
+      background-color: magenta;
+      color: black;
+      font: bold;
+   }
+
+   .green {
+      background-color: green;
+      color: black;
+      font: bold;
+   }
+
+   .colors {
+      background-color: green;
+      color: black;
+      height: 4em;
+      margin: 0 6em 0 6em;
+      display: flex;
+      justify-content: center;
+
+      
+      
+   }
+
+   .colorContainer {
+      display: grid;
+      grid-template-columns: repeat(8, 1fr);
+      grid-gap: 6px;
+      grid-auto-rows: minmax(100px, auto);
+      margin: 2em 5em 0 5em;
+   }
+
+   .blacktype {
+      color: black;
+   }
+
+   .tealtype {
+      color: teal;
+   }
+
+   .bluetype {
+      color: blue;
+   }
+   .navytype {
+      color: navy;
+   }
+
+   .limetype {
+      color: lime;
+   }
+
+   .purpletype {
+      color: purple;
+   }
+
+   .yellowtype {
+      color: yellow;
+   }
+
+   .olivetype {
+      color: olive;
+   }
+
+   .redtype {
+      color: red;
+   }
+
+   .black2type {
+      color: black;
+   }
+   .graytype { 
+      color: gray;
+}
+.olive2type {
+      color: olive;
+   
+}
+
+.red2type {
+      color: red;
+}
+   .fuchsiatype{
+      color:fuchsia
+   }
+.greentype {
+      color: green
+}
+
+.typecolors {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+   .backgroundcolors {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+   }
